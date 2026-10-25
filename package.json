@@ -1,0 +1,17 @@
+{
+  "name": "reservasi-ruangan-backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "bun --watch src/index.js",
+    "start": "bun src/index.js",
+    "seed": "bun src/seed.js && bun src/seed-users.js",
+    "test": "bun test",
+    "admin:create": "bun src/create-admin.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.3.0"
+  }
+}
